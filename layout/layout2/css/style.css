@@ -1,0 +1,85 @@
+* { padding: 0; margin: 0; box-sizing: border-box }
+body { font-family: arial; font-size: 13px; color: #999; }
+li { list-style: none }
+header { }
+.container { width: 1140px; max-width: 100%; margin: 0 auto }
+.logo { float: left; color: #000; text-transform: uppercase; margin-top: 35px }
+.logo span { color: #82B62D; font-size: 2em }
+.logo strong { font-size: 3em }
+.mainTop { float: right }
+.contactTop { line-height: 2.2em; margin-top: 26px }
+.contactTop ul { text-align: right;}
+.contactTop ul li { display: inline-block; margin-left: 12px }
+.navTop { line-height: 2em; padding: 10px 0; overflow-y: hidden; }
+.navTop .socialTop { float: right; margin-left: 3em; }
+.navTop .socialTop li { display: inline-block; padding: 0 3px }
+.navTop .socialTop li a { padding: 2px 3px; color: #000 }
+.navTop .socialTop li a:hover { color: #82b62d }
+.navTop nav { display: block; white-space: nowrap; float: left;}
+.navTop nav li { display: inline-block; padding: 0 0.5em; }
+.navTop nav li a { font-size: 1.3em; font-weight: 600; color: #000; text-decoration: none; padding: 2px 6px;}
+.navTop nav li a:hover { color: #82b62d;}
+.navTop nav li.active a { color: #de4c1d;}
+
+.sectionMain {padding:5em 0; background: #fff; clear: both; overflow: hidden;}
+.sectionSlider {background: #fff url(../images/1.jpg) no-repeat center; background-size: cover; clear: both; height: 580px;}
+.slider {padding: 3em;}
+.slider .sliderContent {text-align: center; color: #fff; padding: 2em;}
+.slider .sliderContent h5 {font-size: 1.5em; font-weight: normal; text-transform: uppercase; letter-spacing: 0.4em;}
+.slider .sliderContent h2 {font-size: 4em; padding: 16px 0;}
+.slider .sliderContent p {max-width: 460px; margin:10px auto; line-height: 2em;}
+a.btn-more {background:#82b62d; padding: 0.5em 1em; color: #fff; font-size: 1.2em; text-decoration: none; margin-top:1em; display: inline-block;}
+a.btn-more:hover {background:#de4c1d;}
+.navSlider {display: block; text-align: center; margin-top: 6em;}
+.navSlider li {display: inline-block; margin: 5px;}
+.navSlider li a {display: block; width: 12px; height: 12px; border-radius: 50%; background-color: #fff;}
+.navSlider li a:hover {background-color: #de4c1d;}
+.navSlider li.active a {background-color: #82b62d;}
+
+.labelSection {font-size: 2.5em; color:#000; text-transform: uppercase; text-align: center; display: block; font-weight: 500; letter-spacing: 0.2em; margin-bottom:1em; }
+.sectionWelcome {}
+.modWelcome {  } 
+.modWelcome article { display: block; clear: both;} 
+.modWelcome article .thumbArt {display: block; max-width: 460px; float: left; margin-right: 2em;}
+.modWelcome article:nth-child(2n + 1) .thumbArt { float: right; margin-left: 2em;}
+.modWelcome article .thumbArt img {display: block; max-width: 100%;}
+.modWelcome article h3 {font-size: 1.3em; color: #000; margin-bottom: 1.5em; padding-top:1.5em;}
+.modWelcome article p {margin-bottom: 1.5em; line-height: 1.5em;}
+
+.sectionServices {background-color: #f0f5f8;}
+.modServices {display: block; overflow: hidden; }
+.modServices li {display: block; float: left; width: 33.33%; padding: 1em;}
+.servicesCont {text-align: center; padding: 2.2em 1em;}
+.servicesCont > div {background: #fff; display: inline-block; width: 50px; height: 50px; line-height: 60px; color:#82b62d; transition-duration: 0.3s;}
+.servicesCont:hover > div {background: #82b62d; color:#fff;}
+.servicesCont h5 {font-size: 1.2em; color:#000; margin:1em 0;}
+.servicesCont p {}
+
+.sectionNews {}
+.artNews img {width: 460px; max-width: 100%; display: block; float: left; margin-right: 2em;}
+.artNews .desSort {display: block; padding: 1em 0;}
+.artNews .desSort li {display: inline-block; margin-right:2em;}
+.artNews h2 {font-size: 3em; margin:1em 0; color:#000; }
+
+.sectionSubs {background: #ccc url(../images/5.jpg) no-repeat center; background-size: cover;}
+.sectionSubs .labelSection {color:#fff;}
+.subCont {text-align: center;}
+.subCont input {line-height: 34px; background-color: #fff; padding: 3px 10px; width: 360px; max-width: calc(100% - 60px);}
+.subCont button {line-height: 38px; height: 44px; width: 48px; color: #fff; background-color:#82b62d; border:none; cursor: pointer;}
+.subCont button svg {position: relative; top: 5px;}
+.subCont button:hover {background-color:#de4c1d; }
+
+
+footer {background-color: #f0f5f8;} 
+.mainFooter {padding:3em 0; overflow: hidden;}
+.mainFooter .col {width: 34%; float: left; padding: 0 1em;}
+.mainFooter .col-secon {width: 16%;}
+.mainFooter .col h4 {color: #000; font-size: 1.2em; margin-bottom: 1em;}
+.mainFooter .col p {line-height: 1.4em; margin-bottom: 1em; text-align: justify;}
+.mainFooter .col li {padding: 4px 5px;}
+.mainFooter .col li a {text-decoration: none; font-weight: bold; color: #333;}
+.mainFooter .col li a:hover {color: #0a0;}
+.mainFooter .col li span {color: #789; font-weight: normal;}
+
+
+footer .copyright {background-color: #0f1215; color:#fff; text-align: center; font-size: 1.2em; padding: 1.2em 0;} 
